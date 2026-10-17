@@ -54,6 +54,7 @@
         .checkbox-group {
             display: flex;
             align-items: flex-start;
+            flex-direction: column;
             gap: 10px;
             margin-bottom: 20px;
         }
@@ -71,6 +72,13 @@
         .disclosure-text a {
             color: var(--primary-color);
             text-decoration: underline;
+        }
+         /* 4. Style your footer nav links normally */
+        footer {
+          background-color: #333;
+          color: black;
+          padding: 20px;
+          text-align: center;
         }
         button {
             width: 100%;
@@ -123,12 +131,14 @@
 </div>  
 
     <div>
+        <footer>
           <p>&copy; 2026 Ryan Trosvig. All rights reserved. | 
               <a href="/sms-consent.html">Subscribe</a> | 
               <a href="/privacy-policy.html">Privacy Policy</a> | 
               <a href="/terms-of-service.html">Terms of Service</a> | 
               <a href="/unsubscribe.html">Unsubscribe</a>
           </p>
+        </footer>
     </div>
     
 </body>
