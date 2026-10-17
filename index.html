@@ -73,6 +73,11 @@
             color: var(--primary-color);
             text-decoration: underline;
         }
+        /* 3. Tell the main content container to grow and fill empty space */
+        main {
+          flex: 1; 
+          padding: 20px;
+        }
          /* 4. Style your footer nav links normally */
         footer {
           background-color: #333;
@@ -99,6 +104,7 @@
 </head>
 <body>
 
+<main>
 <div class="form-container">
     <h2>Subscribe to AI Assistant Daily Updates</h2>
     <p style="font-size: 14px; color: #666; margin-bottom: 20px;">Stay updated with your latest alerts, reminders, and updates.</p>
@@ -129,7 +135,8 @@
         <button type="submit">Subscribe Now</button>
     </form>
 </div>  
-
+</main>
+    
     <div>
         <footer>
           <p>&copy; 2026 Ryan Trosvig. All rights reserved. | 
